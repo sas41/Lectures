@@ -8,7 +8,7 @@ namespace SortingAlgorithms
 {
     class Visualisations
     {
-        static int VisualisationSpeed = 250;
+        static int VisualisationSpeed = 1200;
 
         
         private static bool Less(IComparable first, IComparable second)

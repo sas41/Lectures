@@ -10,34 +10,34 @@ namespace SortingAlgorithms
 
         static void SelectionSortTest(List<int> inputList)
         {
-            inputList = Sorting.SelectionSort(inputList);
-            Console.WriteLine(string.Join(" | ", inputList));
+            List<int> sortedList = Sorting.SelectionSort(inputList);
+            Console.WriteLine(string.Join(" | ", sortedList));
         }
 
 
         static void BubbleSortTest(List<int> inputList)
         {
-            inputList = Sorting.BubbleSort(inputList);
-            Console.WriteLine(string.Join(" | ", inputList));
+            List<int> sortedList = Sorting.BubbleSort(inputList);
+            Console.WriteLine(string.Join(" | ", sortedList));
         }
 
    
         static void InsertionSortTest(List<int> inputList)
         {
-            inputList = Sorting.InsertionSort(inputList);
-            Console.WriteLine(string.Join(" | ", inputList));
+            List<int> sortedList = Sorting.InsertionSort(inputList);
+            Console.WriteLine(string.Join(" | ", sortedList));
         }
 
         static void MergeSortTest(List<int> inputList)
         {
-            inputList = Sorting.MergeSort(inputList).ToList();
-            Console.WriteLine(string.Join(" | ", inputList));
+            List<int> sortedList = Sorting.MergeSort(inputList).ToList();
+            Console.WriteLine(string.Join(" | ", sortedList));
         }
 
         static void QuickSortTest(List<int> inputList)
         {
-            inputList = Sorting.QuickSort(inputList).ToList();
-            Console.WriteLine(string.Join(" | ", inputList));
+            List<int> sortedList = Sorting.QuickSort(inputList).ToList();
+            Console.WriteLine(string.Join(" | ", sortedList));
         }
 
         static void Main(string[] args)
@@ -77,19 +77,19 @@ namespace SortingAlgorithms
             }
 
             // Toggle true to visualize the algortihms
-            if (false)
+            if (true)
             {
-                Visualisations.InsertionSortVisualisation();
-
-                Console.ReadLine();
-
-                Visualisations.BubbleSortVisualisation();
-
-                Console.ReadLine();
-
                 Visualisations.SelectionSortVisualisation();
 
                 Console.ReadLine();
+
+                //Visualisations.BubbleSortVisualisation();
+
+                //Console.ReadLine();
+
+                //Visualisations.InsertionSortVisualisation();
+
+                //Console.ReadLine();
             }
 
             Console.ReadLine();
