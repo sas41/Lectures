@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolveASequenceUsingAQueue",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickestWayFromNToM", "QuickestWayFromNToM\QuickestWayFromNToM.csproj", "{C305FEE6-F31E-4766-B2BB-6B50455097AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursiveCombinations", "RecursiveCombinations\RecursiveCombinations.csproj", "{116AE54F-BB95-4E98-AFE4-022159AFCE8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursivePermutations", "RecursivePermutations\RecursivePermutations.csproj", "{7F685113-4C53-4A94-B66B-579FF16A5F8D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{C305FEE6-F31E-4766-B2BB-6B50455097AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C305FEE6-F31E-4766-B2BB-6B50455097AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C305FEE6-F31E-4766-B2BB-6B50455097AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{116AE54F-BB95-4E98-AFE4-022159AFCE8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{116AE54F-BB95-4E98-AFE4-022159AFCE8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{116AE54F-BB95-4E98-AFE4-022159AFCE8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{116AE54F-BB95-4E98-AFE4-022159AFCE8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F685113-4C53-4A94-B66B-579FF16A5F8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F685113-4C53-4A94-B66B-579FF16A5F8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F685113-4C53-4A94-B66B-579FF16A5F8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F685113-4C53-4A94-B66B-579FF16A5F8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
