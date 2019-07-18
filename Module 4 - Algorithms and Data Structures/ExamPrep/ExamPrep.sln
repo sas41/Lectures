@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainsSkeleton", "TrainsSkeleton\TrainsSkeleton.csproj", "{4171F106-F771-483F-B8AA-9DD9B9643807}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parking2019", "Parking2019\Parking2019.csproj", "{55F9A1E2-ED1F-4DE2-990A-77A514BB4267}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4171F106-F771-483F-B8AA-9DD9B9643807}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4171F106-F771-483F-B8AA-9DD9B9643807}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4171F106-F771-483F-B8AA-9DD9B9643807}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55F9A1E2-ED1F-4DE2-990A-77A514BB4267}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55F9A1E2-ED1F-4DE2-990A-77A514BB4267}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55F9A1E2-ED1F-4DE2-990A-77A514BB4267}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55F9A1E2-ED1F-4DE2-990A-77A514BB4267}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

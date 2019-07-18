@@ -8,7 +8,7 @@ namespace LinkedListExample
 {
     class LinkedList<T>
     {
-        Node<T> start;
+        Node<T> head;
 
 
         public LinkedList()
@@ -30,16 +30,16 @@ namespace LinkedListExample
 
         private Node<T> GetLast()
         {
-            Node<T> result = start.Head;
+            Node<T> result = head.Previous;
             if (result == null)
             {
-                return start;
+                return head;
             }
             else
             {
-                while (result.Head != null)
+                while (result.Previous != null)
                 {
-                    result = result.Head;
+                    result = result.Previous;
                 }
                 return result;
             }
@@ -52,30 +52,30 @@ namespace LinkedListExample
                 throw new IndexOutOfRangeException();
             }
 
-            Node<T> current = start;
+            Node<T> current = head;
             for (int i = 0; i < index; i++)
             {
                 if (current == null)
                 {
                     throw new IndexOutOfRangeException();
                 }
-                current = current.Head;
+                current = current.Previous;
             }
             return current;
         }
 
         public void Add(T item)
         {
-            if (start == null)
+            if (head == null)
             {
-                start = new Node<T>(item);
+                head = new Node<T>(item);
             }
             else
             {
                 Node<T> last = GetLast();
-                last.Head = new Node<T>(item);
-                Node<T> newNode = last.Head;
-                newNode.Tail = last;
+                last.Previous = new Node<T>(item);
+                Node<T> newNode = last.Previous;
+                newNode.Next = last;
                 
             }
         }
@@ -84,22 +84,22 @@ namespace LinkedListExample
         {
             if (index == 0)
             {
-                start = start.Head;
-                start.Tail = null;
+                head = head.Previous;
+                head.Next = null;
                 return;
             }
 
             Node<T> current = GetAt(index);
 
             Node<T> prev, next;
-            prev = current.Tail;
-            next = current.Head;
+            prev = current.Next;
+            next = current.Previous;
 
-            prev.Head = next;
+            prev.Previous = next;
 
             if (next != null)
             {
-                next.Tail = prev;
+                next.Next = prev;
             }
         }
 
@@ -107,11 +107,11 @@ namespace LinkedListExample
         public int Count()
         {
             int count = 0;
-            Node<T> current = start;
+            Node<T> current = head;
             while (current != null)
             {
                 count++;
-                current = current.Head;
+                current = current.Previous;
             }
 
             return count;
