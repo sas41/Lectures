@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vehicles", "Vehicles\Vehicles.csproj", "{FF21EC53-2595-4369-A4E2-8BD392B13DBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animals", "Animals\Animals.csproj", "{4E85169B-7F73-4AD8-BFB5-21D97838A762}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomList", "RandomList\RandomList.csproj", "{D9CAA21B-413F-44FE-95B1-8DCCD05FA26D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF21EC53-2595-4369-A4E2-8BD392B13DBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF21EC53-2595-4369-A4E2-8BD392B13DBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF21EC53-2595-4369-A4E2-8BD392B13DBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF21EC53-2595-4369-A4E2-8BD392B13DBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E85169B-7F73-4AD8-BFB5-21D97838A762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E85169B-7F73-4AD8-BFB5-21D97838A762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E85169B-7F73-4AD8-BFB5-21D97838A762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E85169B-7F73-4AD8-BFB5-21D97838A762}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9CAA21B-413F-44FE-95B1-8DCCD05FA26D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9CAA21B-413F-44FE-95B1-8DCCD05FA26D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9CAA21B-413F-44FE-95B1-8DCCD05FA26D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9CAA21B-413F-44FE-95B1-8DCCD05FA26D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5BB06F56-0C53-46FA-AC4A-E75A8B7D5C63}
+	EndGlobalSection
+EndGlobal
