@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animals", "Animals\Animals.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomList", "RandomList\RandomList.csproj", "{D9CAA21B-413F-44FE-95B1-8DCCD05FA26D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColoredShapes", "ColoredShapes\ColoredShapes.csproj", "{0C5CC332-1A67-4686-980B-622982D860AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{D9CAA21B-413F-44FE-95B1-8DCCD05FA26D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9CAA21B-413F-44FE-95B1-8DCCD05FA26D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9CAA21B-413F-44FE-95B1-8DCCD05FA26D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C5CC332-1A67-4686-980B-622982D860AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C5CC332-1A67-4686-980B-622982D860AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C5CC332-1A67-4686-980B-622982D860AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C5CC332-1A67-4686-980B-622982D860AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
