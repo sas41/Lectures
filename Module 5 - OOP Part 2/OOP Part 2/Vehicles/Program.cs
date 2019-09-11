@@ -24,6 +24,28 @@ namespace Vehicles
             {
                 Console.WriteLine(item.GetInfo());
             }
+            Console.WriteLine();
+
+            Console.WriteLine("Index to Check:");
+            int index = int.Parse(Console.ReadLine());
+            Vehicle vehicle = myVehicles[index];
+            Console.WriteLine($"Object at Index: {index} is a {vehicle.GetType().Name}.");
+
+            if (vehicle is Car)
+            {
+                Console.Write("The Car's Registration is: ");
+                Console.WriteLine( ((Car)vehicle).Registration);
+            }
+            else if (vehicle is Boat)
+            {
+                Console.Write("The Boat's Nationality is: ");
+                Console.WriteLine(((Boat)vehicle).Nationality);
+            }
+            else if (vehicle is Airplane)
+            {
+                Console.Write("The Plane's Callsign is: ");
+                Console.WriteLine(((Airplane)vehicle).Callsign);
+            }
 
             Console.ReadLine();
         }
