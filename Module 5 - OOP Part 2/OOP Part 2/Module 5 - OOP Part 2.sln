@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColoredShapes", "ColoredSha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Signatures", "Signatures\Signatures.csproj", "{F65BB0AE-76E8-467E-A748-1D32B02F0884}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "Library\Library.csproj", "{2409492A-2CF0-46D8-937A-0C08A27218B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{F65BB0AE-76E8-467E-A748-1D32B02F0884}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F65BB0AE-76E8-467E-A748-1D32B02F0884}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F65BB0AE-76E8-467E-A748-1D32B02F0884}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2409492A-2CF0-46D8-937A-0C08A27218B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2409492A-2CF0-46D8-937A-0C08A27218B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2409492A-2CF0-46D8-937A-0C08A27218B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2409492A-2CF0-46D8-937A-0C08A27218B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
