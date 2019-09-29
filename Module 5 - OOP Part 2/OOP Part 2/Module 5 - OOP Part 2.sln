@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Signatures", "Signatures\Si
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "Library\Library.csproj", "{2409492A-2CF0-46D8-937A-0C08A27218B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionalProgramming", "FunctionalProgramming\FunctionalProgramming.csproj", "{48F4B6CE-D3D3-4726-BBF6-46CB15178D59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Streams", "Streams\Streams.csproj", "{A519E2D7-1D8D-4175-ABC4-5E40AD779669}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{2409492A-2CF0-46D8-937A-0C08A27218B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2409492A-2CF0-46D8-937A-0C08A27218B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2409492A-2CF0-46D8-937A-0C08A27218B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48F4B6CE-D3D3-4726-BBF6-46CB15178D59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48F4B6CE-D3D3-4726-BBF6-46CB15178D59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48F4B6CE-D3D3-4726-BBF6-46CB15178D59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48F4B6CE-D3D3-4726-BBF6-46CB15178D59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A519E2D7-1D8D-4175-ABC4-5E40AD779669}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A519E2D7-1D8D-4175-ABC4-5E40AD779669}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A519E2D7-1D8D-4175-ABC4-5E40AD779669}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A519E2D7-1D8D-4175-ABC4-5E40AD779669}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
