@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ColoredShapes
 {
-    class Circle : ColoredShape
+    public class Circle : ColoredShape
     {
         public Circle(string color, float size) : base(color, size)
         {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ColoredShapes
 {
-    abstract class ColoredShape
+    public abstract class ColoredShape
     {
         public string Color { get; set; }
         public float Size { get; set; }

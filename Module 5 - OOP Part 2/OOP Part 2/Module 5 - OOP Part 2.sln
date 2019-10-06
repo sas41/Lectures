@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionalProgramming", "Fu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Streams", "Streams\Streams.csproj", "{A519E2D7-1D8D-4175-ABC4-5E40AD779669}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColoredShapesTests", "ColoredShapesTests\ColoredShapesTests.csproj", "{FF9B42DC-A507-4A75-AD1A-37532F9A2FDC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{A519E2D7-1D8D-4175-ABC4-5E40AD779669}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A519E2D7-1D8D-4175-ABC4-5E40AD779669}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A519E2D7-1D8D-4175-ABC4-5E40AD779669}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF9B42DC-A507-4A75-AD1A-37532F9A2FDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF9B42DC-A507-4A75-AD1A-37532F9A2FDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF9B42DC-A507-4A75-AD1A-37532F9A2FDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF9B42DC-A507-4A75-AD1A-37532F9A2FDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

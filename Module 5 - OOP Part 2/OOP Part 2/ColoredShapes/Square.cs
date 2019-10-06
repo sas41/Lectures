@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ColoredShapes
 {
-    class Square : ColoredShape
+    public class Square : ColoredShape
     {
         public Square(string color, float size) : base(color, size)
         {

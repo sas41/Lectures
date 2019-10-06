@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ColoredShapes
 {
-    class Triangle : ColoredShape
+    public class Triangle : ColoredShape
     {
         public Triangle(string color, float size) : base(color, size)
         {
