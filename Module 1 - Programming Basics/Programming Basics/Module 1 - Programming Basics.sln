@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basics", "Basics\Basics.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicalOperators", "LogicalOperators\LogicalOperators.csproj", "{7EEE614A-2744-410A-9AD2-2E1E0CEDA342}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityShop", "CityShop\CityShop.csproj", "{093E98C2-A90E-4BE5-A49C-A22B3769F17F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{7EEE614A-2744-410A-9AD2-2E1E0CEDA342}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EEE614A-2744-410A-9AD2-2E1E0CEDA342}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EEE614A-2744-410A-9AD2-2E1E0CEDA342}.Release|Any CPU.Build.0 = Release|Any CPU
+		{093E98C2-A90E-4BE5-A49C-A22B3769F17F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{093E98C2-A90E-4BE5-A49C-A22B3769F17F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{093E98C2-A90E-4BE5-A49C-A22B3769F17F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{093E98C2-A90E-4BE5-A49C-A22B3769F17F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
