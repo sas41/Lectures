@@ -18,6 +18,7 @@ namespace CityShop
 
             if (city == "sofia")
             {
+                Console.WriteLine();
                 switch (product)
                 {
                     case "coffee":
@@ -62,7 +63,7 @@ namespace CityShop
                         break;
                 }
             }
-            else if(city == "varna")
+            else if (city == "varna")
             {
                 switch (product)
                 {
@@ -84,6 +85,10 @@ namespace CityShop
                     default:
                         break;
                 }
+            }
+            else
+            {
+                Console.WriteLine("???");
             }
 
             Console.WriteLine(price);

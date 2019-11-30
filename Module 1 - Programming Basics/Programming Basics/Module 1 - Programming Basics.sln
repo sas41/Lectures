@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicalOperators", "Logical
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityShop", "CityShop\CityShop.csproj", "{093E98C2-A90E-4BE5-A49C-A22B3769F17F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rectangle", "Rectangle\Rectangle.csproj", "{DC5413C0-21D3-42D6-9549-7E568CF5A70A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawingWithLoops", "DrawingWithLoops\DrawingWithLoops.csproj", "{4FBF2AB4-7A92-4909-BFAB-277F06CE24B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{093E98C2-A90E-4BE5-A49C-A22B3769F17F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{093E98C2-A90E-4BE5-A49C-A22B3769F17F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{093E98C2-A90E-4BE5-A49C-A22B3769F17F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC5413C0-21D3-42D6-9549-7E568CF5A70A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC5413C0-21D3-42D6-9549-7E568CF5A70A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC5413C0-21D3-42D6-9549-7E568CF5A70A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC5413C0-21D3-42D6-9549-7E568CF5A70A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FBF2AB4-7A92-4909-BFAB-277F06CE24B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FBF2AB4-7A92-4909-BFAB-277F06CE24B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FBF2AB4-7A92-4909-BFAB-277F06CE24B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FBF2AB4-7A92-4909-BFAB-277F06CE24B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
