@@ -23,8 +23,8 @@ namespace DrawingWithLoops
                 Console.WriteLine("    8: Christmas Tree (Alternative)");
                 Console.WriteLine("    9: Rhombus");
                 Console.WriteLine("    0: Sunglasses");
-                Console.WriteLine("Any other number to Quit.");
-                Console.WriteLine("Any letter to crash.");
+                Console.WriteLine("    Any other number to Quit.");
+                Console.WriteLine("    Any letter to crash.");
 
                 Console.Write("Choice: ");
                 int choice = int.Parse(Console.ReadLine());
@@ -51,7 +51,7 @@ namespace DrawingWithLoops
         // Правоъгълник, N по N размер.
         static void Rectangle()
         {
-            Console.WriteLine("~====:Rectangle:====~");
+            Console.WriteLine("~====: Rectangle :====~");
             Console.Write("Width: ");
             int width = int.Parse(Console.ReadLine());
             Console.Write("Height: ");
@@ -74,7 +74,7 @@ namespace DrawingWithLoops
         // Алтернативен правоъгълник, N по N размер.
         static void AlternativeRectangle()
         {
-            Console.WriteLine("~====:Alternative Rectangle:====~");
+            Console.WriteLine("~====: Alternative Rectangle :====~");
             Console.Write("Width: ");
             int width = int.Parse(Console.ReadLine());
             Console.Write("Height: ");
@@ -92,7 +92,7 @@ namespace DrawingWithLoops
         // Пирамида от доларчита.
         static void DollarPyramid()
         {
-            Console.WriteLine("~====:Dollar Pyramid:====~");
+            Console.WriteLine("~====: Dollar Pyramid :====~");
             Console.Write("Ammount: ");
             int amount = int.Parse(Console.ReadLine());
 
@@ -109,7 +109,7 @@ namespace DrawingWithLoops
         // Алтернативна пирамида от доларчита.
         static void AlternativeDollarPyramid()
         {
-            Console.WriteLine("~====:Alternative Dollar Pyramid:====~");
+            Console.WriteLine("~====: Alternative Dollar Pyramid :====~");
             Console.Write("Ammount: ");
             int amount = int.Parse(Console.ReadLine());
 
@@ -122,7 +122,7 @@ namespace DrawingWithLoops
         // Рамка.
         static void Frame()
         {
-            Console.WriteLine("~====:Frame:====~");
+            Console.WriteLine("~====: Frame :====~");
             Console.Write("Size: ");
             int size = int.Parse(Console.ReadLine());
             int inside_size = size - 2;
@@ -164,7 +164,7 @@ namespace DrawingWithLoops
         // По-добра рамка.
         static void AlternativeFrame()
         {
-            Console.WriteLine("~====:Alternative Frame:====~");
+            Console.WriteLine("~====: Alternative Frame :====~");
             Console.Write("Size: ");
             int size = int.Parse(Console.ReadLine());
 
@@ -182,9 +182,10 @@ namespace DrawingWithLoops
             Console.WriteLine(topBottom);
         }
 
+        // Коледна Елха
         static void ChristmasTree()
         {
-            Console.WriteLine("~====:Christmas Tree:====~");
+            Console.WriteLine("~====: Christmas Tree :====~");
             Console.Write("N: ");
             int n = int.Parse(Console.ReadLine());
 
@@ -217,9 +218,10 @@ namespace DrawingWithLoops
             }
         }
 
+        // Алтернативна Коледна Елха
         static void AlternativeChristmasTree()
         {
-            Console.WriteLine("~====:Alternative Christmas Tree:====~");
+            Console.WriteLine("~====: Alternative Christmas Tree :====~");
             Console.Write("N: ");
             int n = int.Parse(Console.ReadLine());
 
@@ -238,44 +240,10 @@ namespace DrawingWithLoops
             }
         }
 
-        static void Sunglasses()
-        {
-            Console.WriteLine("~====:Sunglasses:====~");
-            Console.Write("N: ");
-            int n = int.Parse(Console.ReadLine());
-
-            string horizontal_border = new string('*', 2 * n);
-            string spacing = new string(' ', n);
-            string middle_bit = new string('|', n);
-            string glass = "*" + new string('/', (2 * n) - 2) + "*";
-
-
-            Console.WriteLine(horizontal_border + spacing + horizontal_border);
-
-            for (int i = 1; i <= n-2; i++)
-            {
-                Console.Write(glass);
-                
-                if (i == (n-2)/2)
-                {
-                    Console.Write(middle_bit);
-                }
-                else
-                {
-                    Console.Write(spacing);
-                }
-
-                Console.Write(glass);
-
-                Console.WriteLine();
-            }
-
-            Console.WriteLine(horizontal_border + spacing + horizontal_border);
-        }
-
+        // Ромб
         static void Rhombus()
         {
-            Console.WriteLine("~====:Rhombus:====~");
+            Console.WriteLine("~====: Rhombus :====~");
             Console.Write("N: ");
             int n = int.Parse(Console.ReadLine());
 
@@ -312,6 +280,42 @@ namespace DrawingWithLoops
 
                 Console.WriteLine();
             }
+        }
+
+        // Слънчеви Очила
+        static void Sunglasses()
+        {
+            Console.WriteLine("~====: Sunglasses :====~");
+            Console.Write("N: ");
+            int n = int.Parse(Console.ReadLine());
+
+            string horizontal_border = new string('*', 2 * n);
+            string spacing = new string(' ', n);
+            string middle_bit = new string('|', n);
+            string glass = "*" + new string('/', (2 * n) - 2) + "*";
+
+
+            Console.WriteLine(horizontal_border + spacing + horizontal_border);
+
+            for (int i = 1; i <= n-2; i++)
+            {
+                Console.Write(glass);
+                
+                if (i == (n-2)/2)
+                {
+                    Console.Write(middle_bit);
+                }
+                else
+                {
+                    Console.Write(spacing);
+                }
+
+                Console.Write(glass);
+
+                Console.WriteLine();
+            }
+
+            Console.WriteLine(horizontal_border + spacing + horizontal_border);
         }
     }
 }
