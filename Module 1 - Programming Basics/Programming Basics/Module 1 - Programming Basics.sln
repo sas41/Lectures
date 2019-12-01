@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawingWithLoops", "Drawing
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods", "Methods\Methods.csproj", "{FAAB18F5-234F-4B76-BD53-F29797FFB4C0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodExercises", "MethodExercises\MethodExercises.csproj", "{FF1036B0-840D-4EF2-9CD7-BA748921ADE2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{FAAB18F5-234F-4B76-BD53-F29797FFB4C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAAB18F5-234F-4B76-BD53-F29797FFB4C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAAB18F5-234F-4B76-BD53-F29797FFB4C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF1036B0-840D-4EF2-9CD7-BA748921ADE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF1036B0-840D-4EF2-9CD7-BA748921ADE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF1036B0-840D-4EF2-9CD7-BA748921ADE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF1036B0-840D-4EF2-9CD7-BA748921ADE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
