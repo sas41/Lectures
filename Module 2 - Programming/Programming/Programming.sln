@@ -5,11 +5,11 @@ VisualStudioVersion = 16.0.29411.108
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{0F8FA465-94EA-46EC-9629-BF5C43E025AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAndReferences", "..\DataAndReferences\DataAndReferences.csproj", "{F98ECBF7-4ADD-4558-A7EA-241F28ED69D5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAndReferences", "DataAndReferences\DataAndReferences.csproj", "{F98ECBF7-4ADD-4558-A7EA-241F28ED69D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraysAndReferences", "..\ArraysAndReferences\ArraysAndReferences.csproj", "{00F448F3-93FE-428F-811A-5949FF4CDE62}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraysAndReferences", "ArraysAndReferences\ArraysAndReferences.csproj", "{00F448F3-93FE-428F-811A-5949FF4CDE62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithArrays", "..\WorkingWithArrays\WorkingWithArrays.csproj", "{C373DE8D-F4E5-4A51-B88A-032A3658B929}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithArrays", "WorkingWithArrays\WorkingWithArrays.csproj", "{C373DE8D-F4E5-4A51-B88A-032A3658B929}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayExercises", "ArrayExercises\ArrayExercises.csproj", "{3E2855DD-7318-4EE0-B10B-77553E4CDA8C}"
 EndProject

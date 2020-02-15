@@ -14,7 +14,8 @@ namespace ArrayExercises
             //MostCommonNumberSimple();
             //LetterIndexSimple();
             //LetterIndexComplex();
-            ArrayToNumber();
+            //ArrayToNumber();
+            RotateAndSum();
 
             Console.ReadLine();
         }
@@ -308,6 +309,50 @@ namespace ArrayExercises
             }
 
             Console.WriteLine("Final number: " + numbers[0]);
+        }
+
+        static void RotateAndSum()
+        {
+            // Read set of integers from the console.
+            int[] initial = Console.ReadLine().Split().Select(int.Parse).ToArray();
+            int k = int.Parse(Console.ReadLine());
+
+            // Create an array to store the shifted/rotated array.
+            // Create an array to store the sum of previous shifts.
+            int[] rotateArray = new int[initial.Length];
+            int[] sumArray = new int[initial.Length];
+
+            // Shift and add k times.
+            for (int i = 0; i < k; i++)
+            {
+                // Set the first integer of the rotated array
+                // to that of the last integer of the initial array.
+                rotateArray[0] = initial[initial.Length - 1];
+
+                // starting from the first integer of the initial array
+                // copy over all integers -1 to the rotated array, but
+                // copy them over 1 position forward, since the inital
+                // position of the rotated array is where the last int
+                // of the initial array went to.
+                Array.Copy(initial, 0, rotateArray, 1, initial.Length - 1);
+
+                Console.WriteLine("Rotation " + i + ": [" + string.Join(", ", rotateArray) + "]");
+
+                // Add each integer from the rotated array
+                // to the sum array on their corresponding
+                // index.
+                for (int j = 0; j < rotateArray.Length; j++)
+                {
+                    sumArray[j] += rotateArray[j];
+                }
+
+                // copy the current rotated array over
+                // as the next initial array, to repeat
+                // the process.
+                rotateArray.CopyTo(initial, 0);
+            }
+
+            Console.WriteLine("Final Sum Array: [" + string.Join(", ", sumArray) + "]");
         }
     }
 }
