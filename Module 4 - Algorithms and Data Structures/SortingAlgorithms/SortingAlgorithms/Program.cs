@@ -79,13 +79,13 @@ namespace SortingAlgorithms
             // Toggle true to visualize the algortihms
             if (true)
             {
-                Visualisations.SelectionSortVisualisation();
+                //Visualisations.SelectionSortVisualisation();
 
                 Console.ReadLine();
 
-                //Visualisations.BubbleSortVisualisation();
+                Visualisations.BubbleSortVisualisation();
 
-                //Console.ReadLine();
+                Console.ReadLine();
 
                 //Visualisations.InsertionSortVisualisation();
 
