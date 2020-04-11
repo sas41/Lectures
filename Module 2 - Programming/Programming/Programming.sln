@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods", "Methods\Methods.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodExercises", "MethodExercises\MethodExercises.csproj", "{0894CEE8-E303-43ED-8C19-15BAAAA17363}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultidimensionalArrays", "MultidimensionalArrays\MultidimensionalArrays.csproj", "{492E7804-28F1-4616-9AE1-B2F5E93ED3D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{0894CEE8-E303-43ED-8C19-15BAAAA17363}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0894CEE8-E303-43ED-8C19-15BAAAA17363}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0894CEE8-E303-43ED-8C19-15BAAAA17363}.Release|Any CPU.Build.0 = Release|Any CPU
+		{492E7804-28F1-4616-9AE1-B2F5E93ED3D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{492E7804-28F1-4616-9AE1-B2F5E93ED3D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{492E7804-28F1-4616-9AE1-B2F5E93ED3D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{492E7804-28F1-4616-9AE1-B2F5E93ED3D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
