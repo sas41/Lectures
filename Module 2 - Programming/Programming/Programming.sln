@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodExercises", "MethodEx
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultidimensionalArrays", "MultidimensionalArrays\MultidimensionalArrays.csproj", "{492E7804-28F1-4616-9AE1-B2F5E93ED3D2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqAndLambda", "LinqAndLambda\LinqAndLambda.csproj", "{75E2A521-A3ED-4909-923B-744B2B211974}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionaries", "Dictionaries\Dictionaries.csproj", "{2BFC8469-4A8D-4FC4-A7D4-0209CDD15601}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{492E7804-28F1-4616-9AE1-B2F5E93ED3D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{492E7804-28F1-4616-9AE1-B2F5E93ED3D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{492E7804-28F1-4616-9AE1-B2F5E93ED3D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75E2A521-A3ED-4909-923B-744B2B211974}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75E2A521-A3ED-4909-923B-744B2B211974}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75E2A521-A3ED-4909-923B-744B2B211974}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75E2A521-A3ED-4909-923B-744B2B211974}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BFC8469-4A8D-4FC4-A7D4-0209CDD15601}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BFC8469-4A8D-4FC4-A7D4-0209CDD15601}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BFC8469-4A8D-4FC4-A7D4-0209CDD15601}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BFC8469-4A8D-4FC4-A7D4-0209CDD15601}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
