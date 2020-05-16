@@ -53,7 +53,7 @@ namespace MovingCargo
                     if (trucks.ContainsKey(truckName) && templates.ContainsKey(freightName))
                     {
                         Freight copy = new Freight(freightName, templates[freightName].Weight);
-                        bool success = trucks[truckName].TryAddFreigh(copy);
+                        bool success = trucks[truckName].TryAddFreight(copy);
 
                         if (success)
                         {

@@ -53,7 +53,7 @@ namespace MovingCargo
             Load = new List<Freight>();
         }
 
-        public bool TryAddFreigh(Freight cargo)
+        public bool TryAddFreight(Freight cargo)
         {
             if (cargo.Weight + Load.Select(x => x.Weight).Sum() <= Capacity)
             {
