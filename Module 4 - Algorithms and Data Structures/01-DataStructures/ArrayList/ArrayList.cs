@@ -18,6 +18,26 @@ namespace ArrayListExample
             Count = 0;
         }
 
+        public T this[int index]
+        {
+            get
+            {
+                if (index < 0 || index >= items.Length)
+                {
+                    throw new IndexOutOfRangeException("The index was out of bounds of the internal array!");
+                }
+                return items[index];
+            }
+            set
+            {
+                if (index < 0 || index >= items.Length)
+                {
+                    throw new IndexOutOfRangeException("The index was out of bounds of the internal array!");
+                }
+                items[index] = value;
+            }
+        }
+
         public void Add(T item)
         {
             if (items.Length == Count)

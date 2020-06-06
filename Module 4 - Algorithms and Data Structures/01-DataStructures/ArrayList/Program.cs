@@ -10,6 +10,10 @@ namespace ArrayListExample
     {
         static void Main(string[] args)
         {
+            //List<int> mylist = new List<int>();
+            //mylist[5];
+
+
             ArrayList<int> alist = new ArrayList<int>();
 
             alist.Add(5);
@@ -18,6 +22,8 @@ namespace ArrayListExample
             alist.Add(99);
             alist.Add(77);
             alist.Add(88);
+
+            var test = alist[99];
 
             alist.RemoveAt(1);
 
