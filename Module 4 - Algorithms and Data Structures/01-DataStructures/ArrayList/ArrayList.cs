@@ -65,6 +65,12 @@ namespace ArrayListExample
 
             items[Count-1] = default(T);
             Count--;
+
+            if (Count <= items.Length / 4)
+            {
+                Shrink();
+            }
+
             return removed;
         }
 
@@ -95,6 +101,19 @@ namespace ArrayListExample
             //variable	address		value
             //items[]		0x00A9E	=>	{5, 6, 12, 99, X, X, X, X}
             //expanded[]	0x00A9E	=>	{5, 6, 12, 99, X, X, X, X}
+        }
+
+        private void Shrink()
+        {
+            T[] shrunk = new T[items.Length / 2];
+
+            for (int i = 0; i < Count; i++)
+            {
+                shrunk[i] = items[i];
+            }
+
+            items = shrunk;
+
         }
     }
 }
