@@ -22,7 +22,7 @@ namespace ArrayListExample
         {
             get
             {
-                if (index < 0 || index >= items.Length)
+                if (index < 0 || index >= Count)
                 {
                     throw new IndexOutOfRangeException("The index was out of bounds of the internal array!");
                 }
@@ -30,7 +30,7 @@ namespace ArrayListExample
             }
             set
             {
-                if (index < 0 || index >= items.Length)
+                if (index < 0 || index >= Count)
                 {
                     throw new IndexOutOfRangeException("The index was out of bounds of the internal array!");
                 }

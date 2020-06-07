@@ -10,8 +10,9 @@ namespace ArrayListExample
     {
         static void Main(string[] args)
         {
-            //List<int> mylist = new List<int>();
-            //mylist[5];
+            List<int> mylist = new List<int>();
+            var test = mylist[5];
+            mylist[5] = test;
 
 
             ArrayList<int> alist = new ArrayList<int>();
