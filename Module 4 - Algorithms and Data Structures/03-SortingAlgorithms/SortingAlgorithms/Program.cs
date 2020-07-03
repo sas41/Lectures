@@ -24,6 +24,12 @@ namespace SortingAlgorithms
             Console.WriteLine("Merge Sort:");
             Console.WriteLine(string.Join(", ", MergeSort.Sort(testList)));
 
+
+
+            List<string> testList2 = new List<string>() {"test", "alakazam", "B", "pudding" };
+            Console.WriteLine("Bubble Sort (GENERIC):");
+            Console.WriteLine(string.Join(", ", BubbleSort.GenericSort(testList2)));
+
             Console.ReadLine();
         }
     }
