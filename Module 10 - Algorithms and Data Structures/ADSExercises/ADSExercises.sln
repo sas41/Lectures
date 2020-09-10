@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciDP", "FibonacciDP\FibonacciDP.csproj", "{90F1B273-7BF7-4B30-8328-A407CE543BB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnapsackProblem", "KnapsackProblem\KnapsackProblem.csproj", "{5907149D-54BD-483D-89E6-61F3A972332E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90F1B273-7BF7-4B30-8328-A407CE543BB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90F1B273-7BF7-4B30-8328-A407CE543BB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90F1B273-7BF7-4B30-8328-A407CE543BB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90F1B273-7BF7-4B30-8328-A407CE543BB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5907149D-54BD-483D-89E6-61F3A972332E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5907149D-54BD-483D-89E6-61F3A972332E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5907149D-54BD-483D-89E6-61F3A972332E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5907149D-54BD-483D-89E6-61F3A972332E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9BE74FA9-402A-44A0-8EF3-54D98ECF54FB}
+	EndGlobalSection
+EndGlobal
