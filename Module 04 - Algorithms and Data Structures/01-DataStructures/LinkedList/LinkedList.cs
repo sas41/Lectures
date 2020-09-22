@@ -15,7 +15,7 @@ namespace LinkedListExample
     class LinkedList<T>
     {
         private Node<T> Head;
-        private Node<T> Tail;
+        private Node<T> Last;
         public int Count { get; private set; }
 
         public T this[int index]
@@ -36,15 +36,15 @@ namespace LinkedListExample
             {
                 Head = new Node<T>();
                 Head.Item = item;
-                Tail = Head;
+                Last = Head;
             }
             else
             {
                 Node<T> newNode = new Node<T>();
                 newNode.Item = item;
-                Tail.Next = newNode;
+                Last.Next = newNode;
 
-                Tail = Tail.Next;
+                Last = Last.Next;
                 //Tail = newNode;
             }
 
@@ -81,7 +81,7 @@ namespace LinkedListExample
 
                 if (last.Next == null)
                 {
-                    Tail = last;
+                    Last = last;
                 }
             }
 
@@ -148,6 +148,32 @@ namespace LinkedListExample
                 }
             }
             return false;
+        }
+
+
+        public void Reverse()
+        {
+            if (Count > 2)
+            {
+                Last = Head;
+
+                var A = Head;
+                var B = A.Next;
+                var C = B.Next;
+
+                while (C != null)
+                {
+                    B.Next = A;
+
+                    A = B;
+                    B = C;
+                    C = C.Next;
+                }
+
+                B.Next = A;
+
+                Head = B;
+            }
         }
     }
 }

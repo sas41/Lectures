@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TreeStructures
+namespace BinaryTree
 {
     class BinaryTreeNode<T> where T : IComparable<T>
     {
@@ -13,16 +13,25 @@ namespace TreeStructures
 
         public T Value { get; set; }
 
-        public uint InitialRank { get; set; }
-
         public BinaryTreeNode<T> Left { get; set; }
         public BinaryTreeNode<T> Right { get; set; }
 
-        public BinaryTreeNode(T value, BinaryTreeNode<T> parent, uint rank = 0)
+        public BinaryTreeNode(T value, BinaryTreeNode<T> parent)
         {
             Value = value;
             Parent = parent;
-            InitialRank = rank;
+        }
+
+        public uint GetDepth()
+        {
+            BinaryTreeNode<T> currentNode = this;
+            uint depth = 0;
+            while (currentNode.Parent != null)
+            {
+                depth++;
+                currentNode = currentNode.Parent;
+            }
+            return depth;
         }
     }
 }

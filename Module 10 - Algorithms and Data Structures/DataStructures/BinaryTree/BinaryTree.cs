@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TreeStructures
+namespace BinaryTree
 {
     class BinaryTree<T> where T : IComparable<T>
     {
@@ -17,10 +17,10 @@ namespace TreeStructures
 
         public BinaryTreeNode<T> Add(T value)
         {
-            return AddRecursive(value, Root, 0);
+            return AddRecursive(value, Root);
         }
 
-        private BinaryTreeNode<T> AddRecursive(T value, BinaryTreeNode<T> current, uint rank)
+        private BinaryTreeNode<T> AddRecursive(T value, BinaryTreeNode<T> current)
         {
             bool equal = value.CompareTo(current.Value) == 0;
             bool larger = value.CompareTo(current.Value) == 1;
@@ -35,24 +35,24 @@ namespace TreeStructures
                 {
                     if (current.Right == null)
                     {
-                        current.Right = new BinaryTreeNode<T>(value, current, rank+1);
+                        current.Right = new BinaryTreeNode<T>(value, current);
                         return current.Right;
                     }
                     else
                     {
-                        return AddRecursive(value, current.Right, current.InitialRank + 1);
+                        return AddRecursive(value, current.Right);
                     }
                 }
                 else
                 {
                     if (current.Left == null)
                     {
-                        current.Left = new BinaryTreeNode<T>(value, current, rank+1);
+                        current.Left = new BinaryTreeNode<T>(value, current);
                         return current.Left;
                     }
                     else
                     {
-                        return AddRecursive(value, current.Left, current.InitialRank + 1);
+                        return AddRecursive(value, current.Left);
                     }
                 }
             }

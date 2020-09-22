@@ -25,10 +25,27 @@ namespace LinkedListExample
             linkedList.RemoveAt(2);
             Console.WriteLine(linkedList.Remove(5));
 
-            for (int i = 0; i < linkedList.Count; i++)
+
+            LinkedList<int> test = new LinkedList<int>();
+
+            for (int i = 0; i < 10; i++)
             {
-                Console.WriteLine(linkedList[i]);
+                test.Add(i);
             }
+
+            for (int i = 0; i < test.Count; i++)
+            {
+                Console.WriteLine(test[i]);
+            }
+
+            test.Reverse();
+            Console.WriteLine();
+
+            for (int i = 0; i < test.Count; i++)
+            {
+                Console.WriteLine(test[i]);
+            }
+
 
             Console.ReadLine();
         }
