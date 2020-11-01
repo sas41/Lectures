@@ -1,0 +1,13 @@
+{
+    "code-runner.executorMap": {
+        "haskell": "ghci"
+    },
+    "code-runner.executorMapByFileExtension": {
+        ".hs": "ghci"
+    },
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.defaultLanguage": "haskell",
+    "code-runner.enableAppInsights": false,
+    "code-runner.ignoreSelection": true,
+    "script-runner.customShell.path": "ghci %d -e main"
+}

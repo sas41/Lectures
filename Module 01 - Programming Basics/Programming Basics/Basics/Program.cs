@@ -60,7 +60,7 @@ namespace FirstApp
             // 
             // Писане на конзолата чрез променлива:
             string hello = "Hello World";
-            Console.WriteLine(someText);
+            Console.WriteLine(hello);
 
             // Reading from the console in to a variable:
             //
@@ -81,6 +81,7 @@ namespace FirstApp
             Console.WriteLine(yourNumberIs);
             
             string alternative = $"The number is: {myNumber}";
+            Console.WriteLine(alternative);
 
             Console.ReadLine();
         }
