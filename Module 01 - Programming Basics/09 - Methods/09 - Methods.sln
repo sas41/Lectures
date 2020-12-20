@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmptyReceipt", "EmptyReceipt\EmptyReceipt.csproj", "{16A44C45-7B25-4A49-A2A3-0A1160FD582C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignOfN", "SignOfN\SignOfN.csproj", "{83667564-4046-4BCD-9F8C-ADDA8C68CDD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrianglePrinter", "TrianglePrinter\TrianglePrinter.csproj", "{EC57B35C-DD9D-48EE-9586-C78434DA9EE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintFilledBox", "PrintFilledBox\PrintFilledBox.csproj", "{A390310B-3DB4-421C-AE73-4AC68AB192CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16A44C45-7B25-4A49-A2A3-0A1160FD582C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16A44C45-7B25-4A49-A2A3-0A1160FD582C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16A44C45-7B25-4A49-A2A3-0A1160FD582C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16A44C45-7B25-4A49-A2A3-0A1160FD582C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83667564-4046-4BCD-9F8C-ADDA8C68CDD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83667564-4046-4BCD-9F8C-ADDA8C68CDD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83667564-4046-4BCD-9F8C-ADDA8C68CDD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83667564-4046-4BCD-9F8C-ADDA8C68CDD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC57B35C-DD9D-48EE-9586-C78434DA9EE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC57B35C-DD9D-48EE-9586-C78434DA9EE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC57B35C-DD9D-48EE-9586-C78434DA9EE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC57B35C-DD9D-48EE-9586-C78434DA9EE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A390310B-3DB4-421C-AE73-4AC68AB192CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A390310B-3DB4-421C-AE73-4AC68AB192CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A390310B-3DB4-421C-AE73-4AC68AB192CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A390310B-3DB4-421C-AE73-4AC68AB192CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7D00FD8-50B5-4E25-BE37-6710E2DB3C0D}
+	EndGlobalSection
+EndGlobal
